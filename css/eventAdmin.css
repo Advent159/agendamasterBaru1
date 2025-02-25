@@ -1,0 +1,83 @@
+/* Animasi 3D */
+@keyframes fadeSlide {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Efek untuk navbar */
+.navbar {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Styling untuk tabel */
+.table-container {
+  animation: fadeSlide 1s ease-in-out;
+  margin-top: 20px;
+}
+
+/* Efek hover pada baris tabel */
+.table tbody tr {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.table tbody tr:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Gaya untuk tombol aksi */
+.btn-action {
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 5px;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.btn-action:hover {
+  transform: scale(1.1);
+}
+
+/* Tombol Tambah Event */
+.btn-add-event {
+  background: linear-gradient(45deg, #add8e6, #5f9ea0);
+  color: white;
+  padding: 10px 13px;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-add-event:hover {
+  background: linear-gradient(45deg, #5f9ea0, #add8e6);
+  transform: scale(1.1);
+}
+/* Form Styling */
+.card {
+  border-radius: 15px;
+  background: #f8f9fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Tombol Tambah Event */
+.btn-primary {
+  background: linear-gradient(45deg, #007bff, #0056b3);
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(45deg, #0056b3, #007bff);
+  transform: scale(1.05);
+}
+
+/* Navbar */
+.navbar {
+  padding: 15px 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}

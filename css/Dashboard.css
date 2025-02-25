@@ -1,0 +1,93 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Memastikan tinggi halaman minimal setara dengan tinggi viewport */
+  margin: 0; /* Hapus margin default */
+}
+.navbar {
+  background-color: #5f9ea0;
+  font-size: 16px;
+  box-shadow: 0 4px 6px #38bdf8(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  color: #ffffff !important;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.nav-link {
+  color: #e2e8f0;
+  margin-right: 15px;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #38bdf8;
+}
+
+.navbar-toggler {
+  border-color: #94a3b8;
+}
+
+.navbar-toggler-icon {
+  background-color: #94a3b8;
+  border-radius: 2px;
+}
+
+.btn-outline-light {
+  border-color: #94a3b8;
+  color: #e2e8f0;
+  transition: all 0.3s;
+}
+
+.btn-outline-light:hover {
+  background-color: #38bdf8;
+  color: white;
+  border-color: #38bdf8;
+}
+
+.welcome-message {
+  color: #e2e8f0;
+  font-weight: 500;
+}
+
+.welcome-message {
+  color: white;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.logout-button {
+  color: white;
+  text-decoration: none;
+  border: 5px solid white;
+  padding: 12px 12px;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+.dropdown-menu {
+  border-radius: 8px;
+  overflow: hidden;
+}
+.dropdown-menu .dropdown-item {
+  font-size: 14px;
+  padding: 10px 15px;
+}
+.dropdown-menu .dropdown-item:hover {
+  background-color: #f8f9fa;
+}
+
+
+/* Footer */
+footer {
+  background-color: #5f9ea0; /* Warna footer */
+  color: white; /* Warna teks */
+  padding: 10px 0; /* Padding atas dan bawah */
+  text-align: center;
+}
+
+main {
+  flex-grow: 1; /* Membuat elemen <main> mengisi ruang di antara header dan footer */
+}
